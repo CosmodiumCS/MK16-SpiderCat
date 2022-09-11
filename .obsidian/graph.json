@@ -13,6 +13,13 @@
         "a": 1,
         "rgb": 14701138
       }
+    },
+    {
+      "query": "line:(wifi-hotspot)",
+      "color": {
+        "a": 1,
+        "rgb": 5431518
+      }
     }
   ],
   "collapse-display": false,
