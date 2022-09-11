@@ -7,11 +7,9 @@
         "id": "186ebf4634ab4e64",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "README.md",
-            "mode": "source",
-            "source": false
+            "file": "ROADMAP.md"
           }
         }
       }
@@ -61,7 +59,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 199.5
   },
   "right": {
     "id": "936e31e7bd4b902f",
@@ -77,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "ROADMAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "ROADMAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "ROADMAP.md"
               }
             }
           }
@@ -130,13 +128,13 @@
   },
   "active": "186ebf4634ab4e64",
   "lastOpenFiles": [
+    "user1.md",
+    "README.md",
     "redro.md",
     "guest-wifi.md",
-    "user1.md",
     "user2.md",
     "user3.md",
     "burgerking-wifi.md",
-    "README.md",
     "file.md",
     "curl.md",
     "spotify.md"
