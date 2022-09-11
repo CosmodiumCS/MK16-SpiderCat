@@ -33,4 +33,4 @@ function user_markdown {
 }
 
 
-send_to_obsidian -file $markdown #-url $webhook
+send_to_obsidian -file $markdown 
