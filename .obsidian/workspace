@@ -7,11 +7,9 @@
         "id": "06a9a60965e9bdf4",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "user1.md",
-            "mode": "source",
-            "source": false
+            "file": "ROADMAP.md"
           }
         }
       }
@@ -77,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "user1.md",
+                "file": "ROADMAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "user1.md",
+                "file": "ROADMAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "user1.md"
+                "file": "ROADMAP.md"
               }
             }
           }
@@ -130,12 +128,12 @@
   },
   "active": "06a9a60965e9bdf4",
   "lastOpenFiles": [
+    "user1.md",
     "ROADMAP.md",
     "redro.md",
     "README.md",
     "guest-wifi.md",
     "burgerking-wifi.md",
-    "user1.md",
     "user3.md",
     "user2.md",
     "file.md",
