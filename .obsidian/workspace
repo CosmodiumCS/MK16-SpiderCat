@@ -7,12 +7,8 @@
         "id": "7b08e31842a41fe1",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "NMMI.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NMMI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NMMI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "NMMI.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -128,7 +120,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7b08e31842a41fe1",
+  "active": "2be9f54040ff0f58",
   "lastOpenFiles": [
     "NMMI.md",
     "user1.md",
