@@ -76,7 +76,8 @@ function user_markdown {
 
     # geolocation values
     $geolocation = Get-GeoLocation
-
+    $longitude = '40.7484405'
+    $latitude = '-73.9878531'
 
     # create markdown content
     $content = @"
@@ -94,7 +95,7 @@ Admin : $is_admin
 ## Wireless
 Public : public
 Private : $private
-Mac : $MAC
+MAC : $MAC
 
 ## Connected Networks
 - [[guest-wifi]]
@@ -105,7 +106,7 @@ Mac : $MAC
 - #mcdonalds-guest
 
 ## Geolocation
-<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=40.7484405,-73.9878531&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org">pirate bay</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">google maps insert</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=$longitude,$latitude&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
 
 ## Tags
 #user
