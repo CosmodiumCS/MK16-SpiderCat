@@ -182,6 +182,8 @@ function user_markdown {
             }
         }
     }
+
+    # exception
     catch {
         send_to_obsidian -message "- No nearby wifi networks detected" -file $markdown
     }
