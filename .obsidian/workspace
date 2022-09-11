@@ -7,12 +7,8 @@
         "id": "7b08e31842a41fe1",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "user1.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#mcdonalds-guest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "user1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "user1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "user1.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -131,11 +123,11 @@
   "active": "7b08e31842a41fe1",
   "lastOpenFiles": [
     "NMMI.md",
+    "blue.md",
+    "Nmmi_Cadet.md",
     "user1.md",
     "ROADMAP.md",
     "README.md",
-    "Nmmi_Cadet.md",
-    "blue.md",
     "burgerking-wifi.md",
     "guest-wifi.md",
     "redro.md",
