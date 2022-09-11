@@ -3,4 +3,4 @@
 - Password : pass123
 - IP : X.X.X.X
 
-wifi-hotspot
+#wifi

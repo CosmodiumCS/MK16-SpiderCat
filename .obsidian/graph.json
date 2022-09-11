@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "guest-wifi",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -8,14 +8,14 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "line:(windows-user)",
+      "query": "#user",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "line:(wifi-hotspot)",
+      "query": "#wifi",
       "color": {
         "a": 1,
         "rgb": 5431518
@@ -32,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.0000000000000009,
+  "scale": 1.5255568449083818,
   "close": false
 }
