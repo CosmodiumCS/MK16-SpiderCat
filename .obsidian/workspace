@@ -4,26 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f6b4280685871104",
+        "id": "06a9a60965e9bdf4",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "redro.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "cae407141cab5a3a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "user1.md",
-            "mode": "source",
-            "source": false
+            "file": "ROADMAP.md"
           }
         }
       }
@@ -73,7 +59,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 199.5
+    "width": 300
   },
   "right": {
     "id": "936e31e7bd4b902f",
@@ -89,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redro.md",
+                "file": "ROADMAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "redro.md",
+                "file": "ROADMAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "redro.md"
+                "file": "ROADMAP.md"
               }
             }
           }
@@ -140,17 +126,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f6b4280685871104",
+  "active": "06a9a60965e9bdf4",
   "lastOpenFiles": [
     "user1.md",
+    "ROADMAP.md",
     "redro.md",
+    "README.md",
     "guest-wifi.md",
     "burgerking-wifi.md",
-    "README.md",
-    "ROADMAP.md",
-    "user2.md",
     "user3.md",
-    "redro.md.md",
-    "file.md"
+    "user2.md",
+    "file.md",
+    "curl.md"
   ]
 }

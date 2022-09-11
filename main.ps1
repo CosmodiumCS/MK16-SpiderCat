@@ -37,7 +37,7 @@ function Get-fullName {
 
     # Write Error is just for troubleshooting 
     catch {Write-Error "No name was detected" 
-    return $env:UserName
+    return "NA"
     -ErrorAction SilentlyContinue
     }
 
