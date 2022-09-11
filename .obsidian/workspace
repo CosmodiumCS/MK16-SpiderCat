@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "06a9a60965e9bdf4",
+        "id": "186ebf4634ab4e64",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 199.5
   },
   "right": {
     "id": "936e31e7bd4b902f",
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "06a9a60965e9bdf4",
+  "active": "186ebf4634ab4e64",
   "lastOpenFiles": [
-    "ROADMAP.md",
     "redro.md",
+    "user1.md",
+    "redro.md.md",
+    "ROADMAP.md",
     "README.md",
     "guest-wifi.md",
-    "burgerking-wifi.md",
-    "user1.md",
-    "user3.md",
     "user2.md",
-    "file.md",
-    "curl.md"
+    "user3.md",
+    "burgerking-wifi.md",
+    "file.md"
   ]
 }
