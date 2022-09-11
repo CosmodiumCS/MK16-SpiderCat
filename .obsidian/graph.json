@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "guest-wifi",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -32,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.5255568449083816,
+  "scale": 1.0000000000000009,
   "close": false
 }

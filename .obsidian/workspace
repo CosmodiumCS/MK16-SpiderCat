@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "186ebf4634ab4e64",
+        "id": "f6b4280685871104",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "user1.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "user1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "user1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "user1.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -128,14 +120,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "186ebf4634ab4e64",
+  "active": "f6b4280685871104",
   "lastOpenFiles": [
-    "redro.md",
-    "user1.md",
-    "redro.md.md",
-    "ROADMAP.md",
-    "README.md",
     "guest-wifi.md",
+    "user1.md",
+    "redro.md",
+    "ROADMAP.md",
+    "redro.md.md",
+    "README.md",
     "user2.md",
     "user3.md",
     "burgerking-wifi.md",
