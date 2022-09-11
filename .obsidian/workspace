@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "86ecd190c7b2f690",
+    "type": "split",
+    "children": [
+      {
+        "id": "611de16873303e6e",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "182f04d4c39f4f03",
+    "type": "split",
+    "children": [
+      {
+        "id": "33a889a628ab39f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2be9f54040ff0f58",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a68e4da5aada2023",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7046a405087f90e2",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "936e31e7bd4b902f",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6837951ff63ddb5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a80e98eb397ac435",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c13a87e93be0adc9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "eb0ce3195ce6c2d3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d707abdcc9d30ba5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "611de16873303e6e",
+  "lastOpenFiles": [
+    "user3.md",
+    "user2.md",
+    "user1.md",
+    "guest-wifi.md",
+    "redro.md",
+    "burgerking-wifi.md",
+    "file.md",
+    "curl.md",
+    "spotify.md",
+    "test/spotify.md"
+  ]
+}
