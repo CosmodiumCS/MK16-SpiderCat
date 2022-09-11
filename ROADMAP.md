@@ -22,14 +22,15 @@ kanban-plugin: basic
 - [ ] associated networks
 
 
-## DOING
-
-
-
-## TODO
+## C0SM0
 
 - [ ] long and lat mapping
+
+
+## JAKOBY
+
 - [ ] obfuscate webhook
+- [ ] wifi cred matching
 
 
 
