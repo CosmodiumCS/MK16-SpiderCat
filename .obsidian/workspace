@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "user1.md",
+            "file": "NMMI.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#starbuck-wifi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "user1.md",
+                "file": "NMMI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "user1.md",
+                "file": "NMMI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "user1.md"
+                "file": "NMMI.md"
               }
             }
           }
@@ -130,28 +130,15 @@
   },
   "active": "7b08e31842a41fe1",
   "lastOpenFiles": [
-<<<<<<< HEAD
+    "NMMI.md",
+    "user1.md",
     "ROADMAP.md",
     "README.md",
     "Nmmi_Cadet.md",
     "blue.md",
-    "user1.md",
     "burgerking-wifi.md",
     "guest-wifi.md",
     "redro.md",
-    "user3.md",
-    "user2.md"
-=======
-    "README.md",
-    "redro.md",
-    "user1.md",
-    "burgerking-wifi.md",
-    "guest-wifi.md",
-    "user3.md",
-    "user2.md",
-    "ROADMAP.md",
-    "file.md",
-    "curl.md"
->>>>>>> origin/main
+    "user3.md"
   ]
 }

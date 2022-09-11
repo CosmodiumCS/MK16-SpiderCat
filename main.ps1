@@ -126,14 +126,6 @@ function user_markdown {
     $email = Get-email
     $is_admin = (Get-LocalGroupMember 'Administrators').Name -contains "$env:COMPUTERNAME\$env:USERNAME"
 
-    # geolocation values
-    $GL = (Get-GeoLocation) -split " "
-    $latitude = $GL[0].Substring(11) -replace ".$"
-    $longitude = $GL[1].Substring(10) -replace ".$"
-
-    # $longitude = '40.7484405'
-    # $latitude = '-73.9878531'
-
     # create markdown content
     $content = @"
 # $account
@@ -157,29 +149,50 @@ function user_markdown {
     # send data set one
     send_to_obsidian -message $content -file $markdown 
 
+    # get saved wireless data
     $wifi_json = wireless_markdown
 
+    # add known connections
     for ($i = 0; $i -le $wifi_json.Length; $i++) {
         $wifi_name = $wifi_json.SSID[$i]
 
         send_to_obsidian -message "- [[$wifi_name]]" -file $markdown
     }
 
+    # setup nearby netwoks
     send_to_obsidian -message "`n## Nearby Networks" -file $markdown
 
+    # attempt to read nearby networks
     try {
-        $nearby_ssids = (netsh wlan show networks mode=Bssid | ?{$_ -like "SSID*"}).trim()
+        # get nearby ssids
+        $nearby_ssids = (netsh wlan show networks mode=Bssid | ?{$_ -like "SSID*" -or $_ -like "*Authentication*" -or $_ -like "*Encryption*"}).trim()
+
+        # clean for iteration
+        $nearby_networks = $nearby_ssids | ConvertTo-Json | ConvertFrom-Json
+
+        # format and add ssids
+        for ($i = 0; $i -le $nearby_networks.Length; $i++) {
+
+            if ($nearby_networks[$i] -like "SSID*") {
+                $formatted_ssid = $nearby_networks[$i] | Out-String
+                $formatted_ssid = $formatted_ssid.Split(":")[1] | Out-String
+                $formatted_ssid = $formatted_ssid.Replace(" ", "").Replace("`n","") 
+    
+                send_to_obsidian -message "- #$formatted_ssid" -file $markdown
+            }
+        }
     }
     catch {
-        $nearby_ssids="No nearby wifi networks detected"
+        send_to_obsidian -message "- No nearby wifi networks detected" -file $markdown
     }
 
-    $nearby_networks = $nearby_ssids | ConvertTo-Json | ConvertFrom-Json
+    # geolocation values
+    $GL = (Get-GeoLocation) -split " "
+    $latitude = $GL[0].Substring(11) -replace ".$"
+    $longitude = $GL[1].Substring(10) -replace ".$"
 
-    for ($i = 0; $i -le $nearby_networks.Length; $i++) {
-        $formatted_ssid = $nearby_networks[$i].replace(" ", "-")
-        send_to_obsidian -message "- #$formatted_ssid" -file $markdown
-    }
+    # $longitude = '40.7484405'
+    # $latitude = '-73.9878531'
 
     $content = @"
 
