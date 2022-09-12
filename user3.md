@@ -1,3 +1,0 @@
-[[guest-wifi]]
-
-#user
