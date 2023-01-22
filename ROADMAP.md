@@ -1,9 +1,3 @@
----
-
-kanban-plugin: basic
-
----
-
 ## USER
 
 - [ ] check admin
@@ -31,12 +25,3 @@ kanban-plugin: basic
 
 - [ ] obfuscate webhook
 - [ ] wifi cred matching
-
-
-
-
-%% kanban:settings
-```
-{"kanban-plugin":"basic"}
-```
-%%

