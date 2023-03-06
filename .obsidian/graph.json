@@ -11,7 +11,7 @@
       "query": "#user",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 20315
       }
     },
     {
@@ -32,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.0881422643088643,
-  "close": false
+  "scale": 1.4904418803284951,
+  "close": true
 }
