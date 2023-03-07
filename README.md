@@ -64,7 +64,7 @@ SpiderCat is an advanced reconnaissance payload that aims to con*cat*anate targe
 git clone https://github.com/CosmodiumCS/SpiderCat.git
 ```
 2. open repository in Obsidian
-3. create an obsidian webhook
+3. create an [obsidian webhook](https://github.com/CosmodiumCS/SpiderCat#making-obsidian-webhooks)
 4. on line 7 of `spidercat.ps1`, replace `WEBHOOK` with your Obsidian Webhook
 5. load the `spidercat.ps1` on to a target and enjoy! :)
 
@@ -91,3 +91,17 @@ git clone https://github.com/CosmodiumCS/SpiderCat.git
 - target execution
 
 ![target execution](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/censored-nodes.png)
+
+## Making Obsidian Webhooks
+1. go to your settings an select the `Webhook Plugin` and select the `Obsidian Webhooks` link
+![webhook1](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/webhook1.png)
+2. once the link is open, select "Sign in with Google"
+![webhook2](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/webhook2.png)
+3. once you have logged in, select "Create Obsidian Sign in Token"
+![webhook3](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/webhook3.png)
+4. copy your token and paste it into the "Webhook login token" section of your Obsidian notebook. then select `Login`
+![webhook4](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/webhook4.png)
+5. select the "Linux, Unix or Mac style new lines" for the "New Line" section of your Obsidian notebook
+![webhook5](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/webhook5.png)
+6. Now that you are signed in, copy and paste your webhook into the `spidercat.ps1` script
+![webhook6](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/webhook6.png)

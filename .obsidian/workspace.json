@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f0e5f8bda24f1628",
+        "id": "db09d5c5a40ad15e",
         "type": "tabs",
         "children": [
           {
-            "id": "4180eb9cb6b498a3",
+            "id": "b900eb1f1212ff39",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,8 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4180eb9cb6b498a3",
+  "active": "b900eb1f1212ff39",
   "lastOpenFiles": [
+    "assets/webhook1.png",
+    "assets/webhook2.png",
+    "assets/webhook3.png",
+    "assets/webhook4.png",
+    "assets/webhook5.png",
+    "assets/webhook6.png",
     "README.md",
     "blue-wifi.md",
     "assets/blue-wifi.png",
@@ -156,12 +162,7 @@
     "assets/censored-nodes.png",
     "assets/wifi.png",
     "starbucks-wifi.md",
-    "assets/profile.png",
     "BlueCosmo.md",
-    "assets/nodes.png",
-    "assets/profile-1.png",
-    "assets/ip-informaton.png",
-    "assets/geolocation.png",
     "wifi-home.md",
     "johns-pc.md",
     "Nmmi_Cadet.md",

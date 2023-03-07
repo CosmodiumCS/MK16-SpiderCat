@@ -1,7 +1,5 @@
-# duckhound webhook script
+# spidercat webhook script
 # created by : C0SM0
-
-# credits to "I am Jakoby" for some code snippets
 
 # change me
 $webhook = "WEBHOOK"
