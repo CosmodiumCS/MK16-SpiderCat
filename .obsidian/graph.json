@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "#wifi",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -27,11 +27,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.58101123595506,
   "lineSizeMultiplier": 5,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1.4904418803284951,
-  "close": true
+  "collapse-forces": false,
+  "centerStrength": 0.532772064640072,
+  "repelStrength": 11.8126341959543,
+  "linkStrength": 0.793140467849475,
+  "linkDistance": 202,
+  "scale": 1.2460670326866097,
+  "close": false
 }

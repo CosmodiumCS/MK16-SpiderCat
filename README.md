@@ -1,5 +1,4 @@
-# Spider Cat
-> Blue Cosmo & I am Jakoby
+# SpiderCat
 ---
 
 ```
@@ -34,16 +33,17 @@
 ---
 
 ## Overview
-Spider Cat is a payload developed by [Blue Cosmo](https://github.com/PrettyBoyCosmo), in assistance with "[I am Jakoby](https://github.com/I-Am-Jakoby)". It aims to con*cat*anate targets into an [Obsidian](https://obsidian.md) *spider* web framework. It allows security professionals to keep track of their targets and how they are connected. Spider Cat conducts advanced reconnaissance on targets, gathering intel such as the users email, systems information, geolocation and saved Wi-Fi hotspots. Using Obsidian's advanced markdown mapping capabilities, Spider Cat is able to connect **all** of your targets based off of the reconnaissance conducted on them.
+SpiderCat is an advanced reconnaissance payload that aims to con*cat*anate targets into an [Obsidian](https://obsidian.md) *spider* web framework. It allows security professionals to keep track of their targets and how they are connected. SpiderCat conducts advanced reconnaissance on targets, gathering intel such as the users email, systems information, geolocation and saved Wi-Fi hotspots. Using Obsidian's advanced markdown mapping capabilities, SpiderCat is able to connect **all** of your targets based off of the reconnaissance conducted on them.
 
-
-![Spider Cat Obsidian Nodes](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/nodes.png)
+![SpiderCat Obsidian Nodes](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/nodes.png)
 
 **Key Features**:
 - Build a network of all your compromised targets
 - See if two targets have been on the same network before
 - Compromise saved network credentials of your targets
-- Search and filter throuth the network of compromised targets for data
+- Advanced search and filtering of target data
+- See common geolocation related data between targets
+- Crucial IP related information
 
 ## Resources:
 - [YouTube Video](https://www.youtube.com/shorts/OW6Z_2jYutk)
@@ -68,4 +68,21 @@ git clone https://github.com/CosmodiumCS/SpiderCat.git
 4. on line 7 of `spidercat.ps1`, replace `WEBHOOK` with your Obsidian Webhook
 5. load the `spidercat.ps1` on to a target and enjoy! :)
 
-## Extraneous:
+## Feature View:
+- target profile builds
+![target profile builds](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/profile.png)
+
+- ip information
+![ip information](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/ip-information.png)
+
+- geolocation
+![geolocation](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/geolocation.png)
+
+- wifi nodes
+![wifi nodes](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/wifi.png)
+
+- wifi profiles
+![wifi profiles](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/blue-wifi.png)
+
+- target execution
+![target execution](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/censored-nodes.png)
