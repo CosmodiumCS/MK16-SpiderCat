@@ -73,16 +73,21 @@ git clone https://github.com/CosmodiumCS/SpiderCat.git
 ![target profile builds](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/profile.png)
 
 - ip information
+
 ![ip information](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/ip-information.png)
 
 - geolocation
+
 ![geolocation](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/geolocation.png)
 
 - wifi nodes
-![wifi nodes](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/wifi.png)
+
+![wifi nodes](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/wifi-nodes.png)
 
 - wifi profiles
+
 ![wifi profiles](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/blue-wifi.png)
 
 - target execution
+
 ![target execution](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/censored-nodes.png)
