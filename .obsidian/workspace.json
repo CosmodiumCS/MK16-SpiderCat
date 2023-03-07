@@ -11,12 +11,8 @@
             "id": "b900eb1f1212ff39",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,19 +140,19 @@
   },
   "active": "b900eb1f1212ff39",
   "lastOpenFiles": [
+    "assets/geolocation.png",
+    "assets/ip-information.png",
+    "assets/profile.png",
+    "assets/nodes.png",
+    "README.md",
     "assets/webhook1.png",
     "assets/webhook2.png",
     "assets/webhook3.png",
     "assets/webhook4.png",
     "assets/webhook5.png",
     "assets/webhook6.png",
-    "README.md",
     "blue-wifi.md",
     "assets/blue-wifi.png",
-    "assets/wifi-nodes.png",
-    "assets/spider-cat.png",
-    "assets/censored-nodes.png",
-    "assets/wifi.png",
     "starbucks-wifi.md",
     "BlueCosmo.md",
     "wifi-home.md",

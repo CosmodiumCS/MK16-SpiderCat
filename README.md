@@ -105,3 +105,6 @@ git clone https://github.com/CosmodiumCS/SpiderCat.git
 ![webhook5](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/webhook5.png)
 6. Now that you are signed in, copy and paste your webhook into the `spidercat.ps1` script
 ![webhook6](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/webhook6.png)
+
+## Credits:
+- huge shout out to OreoByte for developing the ASCII art for this project, check out his work [here](https://github.com/OreoByte/art-pool-current/blob/master/program_ascii_art/cat_spider_eye_v2_no_legs.txt)
