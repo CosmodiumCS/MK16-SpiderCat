@@ -92,7 +92,7 @@ git clone https://github.com/CosmodiumCS/SpiderCat.git
 
 ![target execution](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/censored-nodes.png)
 
-## Making Obsidian Webhooks
+## Making Obsidian Webhooks:
 1. go to your settings an select the `Webhook Plugin` and select the `Obsidian Webhooks` link
 ![webhook1](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/webhook1.png)
 2. once the link is open, select "Sign in with Google"
