@@ -104,6 +104,7 @@ git clone https://github.com/CosmodiumCS/SpiderCat.git
 5. select the "Linux, Unix or Mac style new lines" for the "New Line" section of your Obsidian notebook
 ![webhook5](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/webhook5.png)
 6. Now that you are signed in, copy and paste your webhook into the `spidercat.ps1` script
+	- be sure to remove the `?path=test/spotify.md` from the webhook
 ![webhook6](https://github.com/CosmodiumCS/SpiderCat/blob/main/assets/webhook6.png)
 
 ## Credits:
