@@ -46,7 +46,7 @@ SpiderCat is an advanced reconnaissance payload that aims to con*cat*anate targe
 - Crucial IP related information
 
 ## Resources:
-- [YouTube Video](https://www.youtube.com/shorts/OW6Z_2jYutk)
+- [YouTube Video](https://youtu.be/qyLlB_oiOXM)
 - [YouTube Channel](https://youtube.com/cosmodiumcs)
 - [Website](https://cosmodiumcs.com)
 
