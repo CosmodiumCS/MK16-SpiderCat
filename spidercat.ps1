@@ -70,6 +70,25 @@ function Get-IP-Information {
     return $ipinfo
 }
 
+function Get-AntivirusSolution {
+    try {
+        $Antivirus = Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct
+        if ($Antivirus) {
+            $AntivirusSolution = $Antivirus.displayName
+        }
+        else {
+            $AntivirusSolution = "NA"
+        }
+    }
+    catch {
+        Write-Error "Unable to get Antivirus Solution"
+        return "NA" -ErrorAction SilentlyContinue
+    }
+    return $AntivirusSolution
+}
+
+
+
 # markdown wireless information
 function wireless_markdown {
     # get wireless creds
