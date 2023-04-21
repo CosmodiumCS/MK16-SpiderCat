@@ -210,3 +210,5 @@ function user_markdown {
     send_to_obsidian -message $content -file $markdown
 
 }
+
+user_markdown
